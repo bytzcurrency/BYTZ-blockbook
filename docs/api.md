@@ -80,7 +80,7 @@ Response:
     "mempoolSize": 17348,
     "decimals": 8,
     "dbSize": 191887866502,
-    "about": "Blockbook - blockchain indexer for Trezor wallet https://trezor.io/. Do not use for any other purpose."
+    "about": " "
   },
   "backend": {
     "chain": "main",
@@ -111,7 +111,7 @@ Response:
 }
 ```
 
-_Note: Blockbook always follows the main chain of the backend it is attached to. See notes on **Get Block** below_ 
+_Note: Blockbook always follows the main chain of the backend it is attached to. See notes on **Get Block** below_
 
 #### Get transaction
 Get transaction returns "normalized" data about transaction, which has the same general structure for all supported coins. It does not return coin specific fields (for example information about Zcash shielded addresses).
@@ -331,9 +331,9 @@ Response:
 
 #### Get xpub
 
-Returns balances and transactions of an xpub, applicable only for Bitcoin-type coins. 
+Returns balances and transactions of an xpub, applicable only for Bitcoin-type coins.
 
-Blockbook supports BIP44, BIP49 and BIP84 derivation schemes. It expects xpub at level 3 derivation path, i.e. *m/purpose'/coin_type'/account'/*. Blockbook completes the *change/address_index* part of the path when deriving addresses. 
+Blockbook supports BIP44, BIP49 and BIP84 derivation schemes. It expects xpub at level 3 derivation path, i.e. *m/purpose'/coin_type'/account'/*. Blockbook completes the *change/address_index* part of the path when deriving addresses.
 
 The BIP version is determined by the prefix of the xpub. The prefixes for each coin are defined by fields `xpub_magic`, `xpub_magic_segwit_p2sh`, `xpub_magic_segwit_native` in the [trezor-common](https://github.com/trezor/trezor-common/tree/master/defs/bitcoin) library. If the prefix is not recognized, Blockbook defaults to BIP44 derivation scheme.
 
@@ -771,4 +771,3 @@ The client can subscribe to the following events:
 There can be always only one subscription of given event per connection, i.e. new list of addresses replaces previous list of addresses.
 
 _Note: If there is reorg on the backend (blockchain), you will get a new block hash with the same or even smaller height if the reorg is deeper_
-

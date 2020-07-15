@@ -286,11 +286,11 @@ table.data-table table.data-table th {
 }
 
 .page-link {
-    color: #428bca;
+    color: ##FF005B;
 }
 
 .page-item.active .page-link {
-    background-color: #428bca;
+    background-color: #FF005B;
 }
 
 #txSpecific {
