@@ -291,6 +291,7 @@ table.data-table table.data-table th {
 
 .page-item.active .page-link {
     background-color: #FF005B;
+    border-color: #FF005B;
 }
 
 #txSpecific {
