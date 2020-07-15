@@ -109,6 +109,11 @@ h3 {
     fill: #FFFFFF;
 }
 
+.trezor-logo-svg-white svg {
+    fill: #FFFFFF;
+    margin-top: 6px;
+}
+
 @media (max-width: 768px) {
     .navbar {
         font-size: 14px;
