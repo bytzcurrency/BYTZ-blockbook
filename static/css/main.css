@@ -93,7 +93,7 @@ h3 {
     padding-top: 0;
     background-color: #212121;
     border-bottom-color: #FF005B;
-    border: 0;
+    border: 1;
 }
 
 .bg-trezor {
