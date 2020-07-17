@@ -11,7 +11,7 @@ body {
 }
 
 a {
-    color: #428bca;
+    color: #FF005B;
     text-decoration: none;
 }
 
@@ -92,7 +92,7 @@ h3 {
     padding-bottom: 0;
     padding-top: 0;
     background-color: #212121;
-    border: 0;
+    border-bottom: 0;
 }
 
 .bg-trezor {
@@ -107,6 +107,11 @@ h3 {
     font-weight: bold;
     font-size: 19px;
     fill: #FFFFFF;
+}
+
+.trezor-logo-svg-white svg {
+    fill: #FFFFFF;
+    margin-top: 6px;
 }
 
 @media (max-width: 768px) {
@@ -271,7 +276,7 @@ table.data-table table.data-table th {
 }
 
 .page-link {
-    color: #428bca;
+    color: #FF005B;
 }
 
 .page-text {
@@ -281,11 +286,12 @@ table.data-table table.data-table th {
 }
 
 .page-link {
-    color: #428bca;
+    color: #FF005B;
 }
 
 .page-item.active .page-link {
-    background-color: #428bca;
+    background-color: #FF005B;
+    border-color: #FF005B;
 }
 
 #txSpecific {
