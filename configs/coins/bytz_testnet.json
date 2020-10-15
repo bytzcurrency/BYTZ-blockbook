@@ -25,7 +25,7 @@
     "version": "0.1.1.12",
     "binary_url": "https://github.com/SlateEntertainmentGroup/TestBuilds/releases/download/0.1.1.12/bytz-0.1.1-x86_64-linux-gnu.tar.gz",
     "verification_type": "sha256",
-    "verification_source": "17ed4b99d8e7bd72571ccc7ab0846c33178138d3aac5b643769a58d505eaf852",
+    "verification_source": "8c1981d6284c800fe20d4b45e0aed6ce16a8dab4ed28c771b0942c5f9d128a27",
     "extract_command": "tar -C backend --strip 1 -xf",
     "exclude_files": ["bin/bytz-qt"],
     "exec_command_template": "{{.Env.BackendInstallPath}}/{{.Coin.Alias}}/bin/bytzd -datadir={{.Env.BackendDataPath}}/{{.Coin.Alias}}/backend -conf={{.Env.BackendInstallPath}}/{{.Coin.Alias}}/{{.Coin.Alias}}.conf -pid=/run/{{.Coin.Alias}}/{{.Coin.Alias}}.pid",
