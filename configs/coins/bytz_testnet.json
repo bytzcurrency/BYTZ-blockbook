@@ -23,7 +23,7 @@
     "package_revision": "satoshilabs-1",
     "system_user": "bytz",
     "version": "0.1.0.3",
-    "binary_url": "https://github.com/SlateEntertainmentGroup/TestBuilds/releases/download/0.1.0.3/bytz-0.1.1-x86_64-linux-gnu.tar.gz",
+    "binary_url": "https://github.com/SlateEntertainmentGroup/TestBuilds/releases/download/0.1.0.3/bytz-0.1.0-x86_64-linux-gnu.tar.gz",
     "verification_type": "sha256",
     "verification_source": "df667d475a1d577dc9093053bda2119205ece696023377244d4061801c8d0277",
     "extract_command": "tar -C backend --strip 1 -xf",
